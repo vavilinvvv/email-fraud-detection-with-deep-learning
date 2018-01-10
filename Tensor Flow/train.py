@@ -16,7 +16,7 @@ from tensorflow.contrib import learn
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
 
 tf.flags.DEFINE_string("user_data_file", "data\\rt-polaritydata\\EmailData52UsersEachUser1000Mails\\carol.clair.txt", "Data source for the user for which we build model.")
-tf.flags.DEFINE_string("other_users_data_file", "data\\rt-polaritydata\\EmailData52UsersEachUser1000Mails\\daren.farmer.txt", "Data source for other users.")
+tf.flags.DEFINE_string("other_users_data_file", "data\\rt-polaritydata\\RandomlyGeneratedEmailsData\\generatedEmailsData.txt", "Data source for other users.")
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
